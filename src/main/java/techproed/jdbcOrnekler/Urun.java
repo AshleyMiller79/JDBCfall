@@ -41,11 +41,11 @@ public class Urun {
 		this.fiyat = fiyat;
 	}
 	
-	
-	@Override
-	public String toString() {
-		return "Urun [id=" + id + ", isim=" + isim + ", fiyat=" + fiyat + "]";
-	}
+	//toString mysql den veri çekildiğinde şart değil
+	//@Override
+	//public String toString() {
+	//	return "Urun [id=" + id + ", isim=" + isim + ", fiyat=" + fiyat + "]";
+	//}
 	
 	
 

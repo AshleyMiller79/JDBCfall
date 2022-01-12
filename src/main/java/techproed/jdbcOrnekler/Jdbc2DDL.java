@@ -95,18 +95,18 @@ public class Jdbc2DDL {
 //		/*=======================================================================
 //		  ORNEK6:isciler tablosunun adini calisanlar olarak degistiriniz.  
 ////		========================================================================*/
-//		String alterQuery4 = "ALTER TABLE isciler RENAME TO calisanlar6";
+//		String alterQuery4 = "ALTER TABLE isciler RENAME TO calisanlar5";
 //		st.execute(alterQuery4);
 //		System.out.println("isciler tablosunun adi calisanlar olarak degismistir..");
 ////		
 ////		/*=======================================================================
 ////		  ORNEK7:calisanlar tablosunu siliniz.  
 ////		========================================================================*/
-		String dropQuery2 = "DROP TABLE calisanlar5 ";
-		st.execute(dropQuery2);
-	
-		System.out.println("calisanlar tablosu silindi..");
-//		
+//		String dropQuery2 = "DROP TABLE calisanlar5 ";
+//		st.execute(dropQuery2);
+//	
+//		System.out.println("calisanlar tablosu silindi..");
+////		
 		st.close();
 		con.close();
 	}
